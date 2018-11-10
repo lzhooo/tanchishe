@@ -88,7 +88,7 @@ class game:
             snake2.score -= 0.25
         else:
             snake2.score -= 5
-
+			
     def square():
         for x in range(int(block.screenwidth / block.blocksize)):
             for y in range(int(block.screenheight / block.blocksize)):
